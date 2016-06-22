@@ -163,6 +163,14 @@ html,body {
 	font-weight: 700;
 }
 
+#join-button:hover {
+	background: #1c1c1c;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+
 #features {
 	position: relative;
 	width: 100%;
