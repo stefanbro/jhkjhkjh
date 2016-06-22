@@ -1,3 +1,14 @@
-body {
-	background: black;
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+	background: #1c1c1c;
+	height: 32.50px;
+	width: 100%;
+}
+
+#focus {
+	background: url(../img/bg.png);
 }
