@@ -300,6 +300,11 @@ html,body {
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 0.9em;
+	color: white;
+}
+
+#links a:hover {
+	color: #7cd860;
 }
 
 #links span {
@@ -327,7 +332,7 @@ html,body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 #footer-left {
@@ -345,7 +350,7 @@ html,body {
 	position: absolute;
 	display: inline-block;
 	margin-top: 37px;
-	margin-left: -255px;
+	margin-left: -200px;
 }
 
 #footer-center img {
@@ -362,4 +367,8 @@ html,body {
 	display: inline-block;
 	text-decoration: none;
 	color: #7cd860;
+}
+
+.col {
+	background: none;
 }
