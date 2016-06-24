@@ -128,7 +128,6 @@ body {
 
 #user_data {
   margin-top: 10px;
-  margin-right: 5px;
 }
 
 #num {
@@ -143,7 +142,6 @@ body {
 #user_data img {
   margin: 0;
   padding: 0;
-  margin-left: 30px;
 }
 
 #avatar {
@@ -213,7 +211,31 @@ body {
 }
 
 #dark-grey-bg {
-  height: 800px;
+  height: 1000px;
   background: #171717;
   z-index: -10;
+}
+
+.pill {
+  margin-top: 30px;
+  height: 250px;
+  background: green;
+}
+
+.top_pill {
+  height: 60px;
+}
+
+.top_pill h2 {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.top_pill p {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.footer_col {
+  height: 70px;
 }
