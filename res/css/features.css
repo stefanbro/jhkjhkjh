@@ -120,18 +120,29 @@ body {
   margin-left: 40px;
 }
 
-#user_data p {
+#nav_logo {
+  float: right;
+  margin-right: 90px;
+}
+
+#user_data span {
   margin: 0;
   padding: 0;
   float: right;
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 #user_data {
-  margin-top: 10px;
+  margin-top: 16px;
+  margin-right: 4px;
 }
 
 #num {
-  color: green;
+  color: #78d05d;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 0.7em;
 }
 
 #user_data, #avatar {
@@ -145,7 +156,7 @@ body {
 }
 
 #avatar {
-  margin-top:15px;
+  margin-top:19px;
   width: 32px;
   height: 32px;
 }
@@ -181,7 +192,7 @@ body {
 
 #sub_sub_left {
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 10%;
   float: left;
   display: inline-block;
 }
@@ -189,7 +200,7 @@ body {
 #sub_sub_right {
   float: right;
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 10%;
   margin-top: 30px;
 }
 
@@ -238,4 +249,15 @@ body {
 
 .footer_col {
   height: 70px;
+}
+
+#avatar_menu {
+}
+
+#avatar_icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -28px;
+  margin-top: 7px;
+
 }
