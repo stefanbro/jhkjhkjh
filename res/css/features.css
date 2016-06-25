@@ -20,6 +20,14 @@ body {
   color: white;
 }
 
+#roulette_nav a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
 #roulette_sub_sub_nav {
   height: 120px;
   width: 100%;
@@ -176,6 +184,14 @@ body {
 }
 .menu_item:hover {
   background: #498038;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+#selected-nav {
+  background: #498038;
 }
 
 #red_button {
@@ -209,6 +225,14 @@ body {
   background: #7cd860;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+#sub_sub_right div:hover {
+  background: #262626;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
 }
 
 #light-grey-bg, #dark-grey-bg, #light-grey-bg-items {
@@ -280,7 +304,40 @@ body {
 #pagination {
   width:500px;
   height: 50px;
-  background: grey;
   margin-left: auto;
   margin-right: auto;
+}
+
+#pagination a {
+  color: white;
+  text-decoration: none;
+}
+
+.pagination-item {
+  font-size: 0.8em;
+  display: inline-block;
+  width:30px;
+  height: 30px;
+  background: #404040;
+  margin-top: 10px;
+  border-radius: 50px;
+  margin-left: 10px;
+  line-height: 30px;
+}
+
+.pagination-item:hover {
+  background: black;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.market_page {
+  margin-top: 50px;
+}
+
+#selected-pag {
+  background: #7cd860;
+
 }
