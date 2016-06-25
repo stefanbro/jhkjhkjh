@@ -21,7 +21,7 @@ body {
 }
 
 #roulette_sub_sub_nav {
-  height: 140px;
+  height: 120px;
   width: 100%;
   background: url('../img/menu-bg.png');
   background-size: cover;
@@ -89,7 +89,7 @@ body {
 
 
 #last_10_holder {
-  margin-top: -15px;
+  margin-top: 15px;
   width: 700px;
   height: 100px;
   margin-left: auto;
@@ -211,15 +211,20 @@ body {
   padding-right: 40px;
 }
 
-#light-grey-bg, #dark-grey-bg {
+#light-grey-bg, #dark-grey-bg, #light-grey-bg-items {
   position: absolute;
   height: 480px;
   width: 100%;
   z-index: -5;
 }
-#light-grey-bg {
+#light-grey-bg-items {
+  height: 700px;
+}
+
+#light-grey-bg, #light-grey-bg-items {
   background:#282828;
 }
+
 
 #dark-grey-bg {
   height: 1000px;
@@ -260,4 +265,22 @@ body {
   margin-left: -28px;
   margin-top: 7px;
 
+}
+
+.coin_col {
+  background: grey;
+  height: 450px;
+}
+
+.item_col {
+  height: 240px;
+  background: grey;
+}
+
+#pagination {
+  width:500px;
+  height: 50px;
+  background: grey;
+  margin-left: auto;
+  margin-right: auto;
 }
