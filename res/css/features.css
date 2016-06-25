@@ -20,14 +20,6 @@ body {
   color: white;
 }
 
-#roulette_nav a:hover {
-  opacity: 0.7;
-  -webkit-transition: all 500ms ease-out;
-  -moz-transition: all 500ms ease-out;
-  -o-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
-}
-
 #roulette_sub_sub_nav {
   height: 120px;
   width: 100%;
@@ -340,4 +332,20 @@ body {
 #selected-pag {
   background: #7cd860;
 
+}
+
+.right-col a:hover {
+  opacity: 0.6;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+#nav-logo:hover {
+  opacity: 0.6;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
 }
