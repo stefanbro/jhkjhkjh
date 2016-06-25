@@ -272,9 +272,6 @@ body {
   height: 70px;
 }
 
-#avatar_menu:hover {
-  opacity: 0.8;
-}
 
 #avatar_icon{
   position: absolute;
@@ -336,7 +333,7 @@ body {
 }
 
 
-#settings:hover, #logout:hover, #logo:hover {
+#roulette_nav img:hover {
   opacity: 0.7;
   -webkit-transition: all 500ms ease-out;
   -moz-transition: all 500ms ease-out;
